@@ -1,13 +1,5 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
-import fileinput;
-
-
-inputLines = fileinput.input();
-no_of_entries = int(inputLines[0]);
-phone_book = dict();
-
-
 """
 
 Task
@@ -17,6 +9,11 @@ Note: Your phone book should be a Dictionary/Map/HashMap data structure.
 
 """
 
+import fileinput;
+
+inputLines = fileinput.input();
+no_of_entries = int(inputLines[0]);
+phone_book = dict();
 
 for idx, entry in enumerate(inputLines):
 
