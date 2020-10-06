@@ -25,7 +25,7 @@ if __name__ == '__main__':
             if current > max_1s:
                 max_1s = current;
         else: 
-            if max_1s >= (len(bin_n) / 2):
+            if max_1s >= (len(bin_n) / 2):  # There's no need checking further
                  break;
             current = 0;        
     print(max_1s);
